@@ -16,7 +16,7 @@
 			<ul class="d-inf-menu">
 				<li><a href="{{ URL::to('/') }}">inicio</a></li>
 				<li><a href="{{ URL::to('/empresas/objetos') }}">objetos</a></li>
-				<ul>
+				<ul class="d-menu-escondido">
 					<li><a href="#">Plato</a></li>
 					<li><a href="#">Mesa</a></li>
 					<li><a href="#">Silla</a></li>

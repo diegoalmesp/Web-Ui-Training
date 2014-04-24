@@ -12,6 +12,8 @@
 	margin: 1px;
 }
 
+/* menú desplegable */
+
 .d-inf-menu li {
 	position: relative;
 	float: left;
@@ -28,7 +30,7 @@
 	color: white;
 }
 
-.d-inf-menu li ul {
+.d-menu-escondido {
 	display:none;
 	position:absolute;
 	top:20px;
@@ -38,21 +40,21 @@
 	list-style-type:none;
 }
 
-.d-inf-menu li ul li {
+.d-menu-escondido li {
 	width: 200px;
 	border: 1px solid #9c0101;
 	border-top:none;
 	padding: 10px 20px;
 }
-.d-inf-menu li ul li:first-child {
+.d-menu-escondido li:first-child {
 	border-top: 1px solid #9c0101;
 }
-.d-inf-menu li ul li a {
+.d-menu-escondido li a {
 	width: 240px;
 	margin: 0;
 	padding:0;
 }
-.d-inf-menu li ul li a:hover {
+.d-menu-escondido li a:hover {
 	width: 240px;
 	margin: 0;
 	color: #9c0101;
