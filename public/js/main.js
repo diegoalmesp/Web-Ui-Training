@@ -40,4 +40,22 @@ $(function() {
 	$('.d-articulo-portada').mouseleave(function() {
 		$(this).addClass('sombra');
 	});
+
+	/*
+	 * Animation test
+	 */
+	$('.d-articulo-portada').mouseenter(function() {
+		$(this).find('h4').css('position', 'fixed').animate({
+			top: '10px',
+			left: '30%',
+			fontSize: '4em',
+		}).addClass('sombra-y-bordes');
+	})
+	$('.d-articulo-portada').mouseleave(function() {
+		$(this)
+			.find('h4')
+			.css('position', 'static')
+			.css('font-size', '1em')
+			.removeClass('sombra-y-bordes')
+	});
 });
