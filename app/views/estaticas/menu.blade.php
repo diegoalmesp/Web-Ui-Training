@@ -17,9 +17,9 @@
 				<li><a href="{{ URL::to('/') }}">inicio</a></li>
 				<li><a href="{{ URL::to('/empresas/objetos') }}">objetos</a>
 					<ul class="d-menu-escondido">
-						<li><a href="#">Plato</a></li>
-						<li><a href="#">Mesa</a></li>
-						<li><a href="#">Silla</a></li>
+						<li><a href="{{ URL::to('/empresas/plato') }}">Plato</a></li>
+						<li><a href="{{ URL::to('/empresas/mesa') }}">Mesa</a></li>
+						<li><a href="{{ URL::to('/empresas/silla') }}">Silla</a></li>
 					</ul>
 				</li>
 				<li><a href="{{ URL::to('/contacto') }}">contacto</a></li>

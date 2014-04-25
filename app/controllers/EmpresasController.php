@@ -13,4 +13,19 @@ class EmpresasController extends BaseController {
 		$this->layout->contenido = View::make('principales.objetos');
 	}
 
+	public function getPlato()
+	{
+		$this->layout->contenido = View::make('estaticas.plato');
+	}
+
+	public function getMesa()
+	{
+		$this->layout->contenido = View::make('estaticas.mesa');
+	}
+
+	public function getSilla()
+	{
+		$this->layout->contenido = View::make('estaticas.silla');
+	}
+
 }
