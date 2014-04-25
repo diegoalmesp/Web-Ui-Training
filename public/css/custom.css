@@ -1,4 +1,4 @@
-/* menú superior*/
+/* upper menu */
 
 .d-menu {
 	background: #F2F2F2;
@@ -12,7 +12,7 @@
 	margin: 1px;
 }
 
-/* menú desplegable */
+/* deployable menu */
 
 .d-inf-menu li {
 	position: relative;
@@ -25,11 +25,6 @@
 	text-decoration:none;
 }
 
-/*.d-inf-menu li a:hover {
-	background: #B1B1B1;
-	color: white;
-}
-*/
 .d-menu-escondido {
 	display: none;
     position: absolute;
@@ -46,17 +41,6 @@
     box-shadow: 0 5px 10px #aaa;
 }
 
-/*.d-menu-escondido li {
-	width: 200px;
-	border: 1px solid #9c0101;
-	border-top:none;
-	padding: 10px 20px;
-}*/
-
-/*.d-menu-escondido li:first-child {
-	border-top: 1px solid #9c0101;
-}*/
-
 .d-menu-escondido li a {
 	width: 110px;
 	margin: 0;
@@ -69,7 +53,7 @@
 	background:none;
 }
 
-/* artículo portada */
+/* main articles */
 
 .d-articulo-portada {
 	display: block;
@@ -129,28 +113,3 @@
 .d-foot-right a {
 	color: #6285F7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* EOF */
