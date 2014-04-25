@@ -11,22 +11,18 @@ $(function() {
 	});
 
 	$('ul li:has(ul)').hover(function() {
-		$(this).find('.d-menu-escondido').css('display', 'block');
+		$(this).find('ul').css('display', 'block');
 	},
 	function() {
-		$(this).find('.d-menu-escondido').css('display', 'none');
+		$(this).find('ul').css('display', 'none');
 	});
 });
 
 // $(function() {
-// 	$('.d-menu-escondido').hover( // cada ul que tenga un li con un ul de hijo
-// 		function(e)
-// 		{
-// 			$(this).find('ul').css({display: "block"});
-// 		},
-// 		function(e)
-// 		{
-// 			$(this).find('ul').css({display: "none"});
-// 		}
-// 	);
+// 	$('ul li:has(ul)').hover(function() {
+// 		$(this).find('ul').css('display', 'block');
+// 	},
+// 	function() {
+// 		$(this).find('ul').css('display', 'none');
+// 	});
 // });
