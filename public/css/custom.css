@@ -62,16 +62,29 @@
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	
-	-webkit-box-shadow: 3px 3px 8px #636363;
-	-moz-box-shadow: 3px 3px 8px #636363;
-	box-shadow: 3px 3px 8px #636363;
-	
 	margin-bottom: 8px;
 	
 	/* max-width: 200px; */
 	/* min-height: 200px; */
 	margin-right: 4%;
 	float: left;
+
+	-webkit-box-shadow: 3px 3px 5px #636363;
+	-moz-box-shadow: 3px 3px 5px #636363;
+	box-shadow: 3px 3px 5px #636363;
+}
+
+.sombra {
+	-webkit-box-shadow: 3px 3px 8px #636363;
+	-moz-box-shadow: 3px 3px 8px #636363;
+	box-shadow: 3px 3px 8px #636363;
+}
+
+.sombra-y-bordes {
+	-webkit-box-shadow: 3px 3px 8px #636363;
+	-moz-box-shadow: 3px 3px 8px #636363;
+	box-shadow: 3px 3px 8px #636363;
+	border: 2px solid #ccc;
 }
 
 .d-articulo-portada a {

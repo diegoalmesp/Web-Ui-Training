@@ -9,7 +9,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
 			</header>
 			@foreach( $empresas as $empresa )
-				<section class="d-articulo-portada">
+				<section class="d-articulo-portada sombra">
 					<h4>Empresa: {{ $empresa->nombre }}</h4>
 					<h5>Cantidad empleados: {{ $empresa->cantidad_empleados }}</h5>
 					<p>Dirección: {{ $empresa->direccion }}</p>

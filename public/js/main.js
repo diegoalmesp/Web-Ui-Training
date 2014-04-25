@@ -3,17 +3,41 @@
  */
 
 $(function() {
-	$('.d-articulo-portada h4').mouseenter(function() {
+	var articulo = $('.d-articulo-portada h4'),
+		title = $('.title');
+
+	/*
+	 * This draws a green asterisk at the
+	 * right of the article title
+	 */
+	$(articulo).mouseenter(function() {
 		$(this).append('<span class="aster">*</span>');
 	})
-	$('.d-articulo-portada h4').mouseleave(function() {
+	$(articulo).mouseleave(function() {
 		$('.aster').remove();
 	});
 
-	// $('ul li:has(ul)').hover(function() {
-	// 	$(this).find('ul').css('display', 'block');
-	// },
-	// function() {
-	// 	$(this).find('ul').css('display', 'none');
-	// });
+	/*
+	 * This fades Out and In the main title
+	 * at the left of the navbar
+	 */
+	
+	$(title).mouseenter(function() {
+		$(this).fadeOut(1000);
+	})
+	$('.header-container').mouseleave(function() {
+		$(title).fadeIn(500);
+	});
+
+	/*
+	 * Drop the shadows of the articles
+	 * on mouse over and restore them on
+	 * on mouse out
+	 */
+	$('section.d-articulo-portada').mouseenter(function() {
+		$(this).removeClass('sombra');
+	})
+	$('.d-articulo-portada').mouseleave(function() {
+		$(this).addClass('sombra');
+	});
 });
